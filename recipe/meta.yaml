@@ -1,5 +1,5 @@
 {% set name = "starkbank-ecdsa" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fe7e36b580da097cc8c0a120e3b7ba335e3901b970a484fd5ce856c026ef7714
+  sha256: 4b60ebc493f024f2891516a6c140fcc711c16999468c8594bc1097ca5aed759f
 
 build:
   noarch: python
